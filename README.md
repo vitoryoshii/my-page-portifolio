@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# Portfólio Pessoal
 
-## Project info
+Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e trajetória profissional. O site é uma Aplicação de Página Única (SPA) moderna, construída com as tecnologias mais recentes do ecossistema React.
 
-**URL**: https://lovable.dev/projects/25c6b2ea-c682-4340-bc30-a614dd05ac1e
+## ✨ Funcionalidades Principais
 
-## How can I edit this code?
+* **Página Inicial:** Uma breve introdução sobre mim, minhas principais competências e links para redes sociais.
+* **Projetos:** Uma galeria detalhada dos projetos em que trabalhei, com descrições, tecnologias utilizadas e links.
+* **Currículo (Resume):** Uma linha do tempo interativa da minha experiência profissional e académica, com um link para download do PDF.
+* **Design Responsivo:** Totalmente adaptável para visualização em dispositivos móveis e desktops.
 
-There are several ways of editing your application.
+## 🚀 Tecnologias Utilizadas
 
-**Use Lovable**
+O núcleo deste projeto é construído com ferramentas modernas de desenvolvimento front-end:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/25c6b2ea-c682-4340-bc30-a614dd05ac1e) and start prompting.
+* **[Vite](https://vitejs.dev/)**: Um "build tool" de alta performance que oferece um servidor de desenvolvimento rápido e otimizações de build.
+* **[React](https://react.dev/)**: A biblioteca principal para a construção da interface de usuário.
+* **[TypeScript](https://www.typescriptlang.org/)**: Um superset do JavaScript que adiciona tipagem estática, tornando o código mais robusto e fácil de manter.
+* **[Tailwind CSS](https://tailwindcss.com/)**: Um framework CSS "utility-first" para estilização rápida e responsiva diretamente no HTML.
+* **[shadcn/ui](https://ui.shadcn.com/)**: Uma coleção de componentes de UI (como botões, cards, etc.) lindamente desenhados, que são copiados para o projeto e totalmente personalizáveis.
+* **[React Router DOM](https://reactrouter.com/)**: A biblioteca padrão do React para gerenciamento de rotas (navegação) dentro da SPA.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🏁 Como Executar o Projeto Localmente
 
-**Use your preferred IDE**
+Siga os passos abaixo para clonar e rodar o projeto em seu ambiente de desenvolvimento:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/vitoryoshii/my-page-portifolio.git
+    cd my-page-portifolio
+    ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2.  **Instale as dependências:**
+    (Recomendo usar `npm`, pois o projeto possui um `package-lock.json`)
+    ```bash
+    npm install
+    ```
 
-Follow these steps:
+3.  **Rode o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4.  O servidor iniciará. Abra o seu navegador e acesse [http://localhost:8080](http://localhost:8080) para ver o projeto em ação.
+    *(Nota: A porta `8080` está definida no arquivo `vite.config.ts`)*.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/25c6b2ea-c682-4340-bc30-a614dd05ac1e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
